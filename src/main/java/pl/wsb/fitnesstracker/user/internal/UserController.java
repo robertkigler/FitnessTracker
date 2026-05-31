@@ -20,7 +20,7 @@ public class UserController {
     private final UserProvider userProvider;
     private final UserMapper userMapper;
 
-    // Jawny konstruktor (bez Lomboka)
+
     @Autowired
     public UserController(UserService userService, UserProvider userProvider, UserMapper userMapper) {
         this.userService = userService;
